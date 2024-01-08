@@ -1,0 +1,129 @@
+.container-footer{
+    margin-top: 100px;
+    background-image: url('../assets/img/footer.png');
+    width: 100vw;
+    
+   
+    overflow-y: hidden;
+}
+
+.box-footer{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 190px;
+    
+}
+
+.footer-info{
+    color: white;
+    overflow-y: hidden;
+}
+
+.footer-info h4{
+    overflow-y: hidden;
+    padding-bottom: 30px;
+}
+
+
+
+.footer-info a{
+    padding: 15px;
+   
+} 
+
+.footer-info a i{
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #23539c;
+    padding-top: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.info p{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.footer-map{
+   
+    color: white;
+}
+
+.footer-map h4{
+    overflow-y: hidden;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.box-map{
+    width: 350px;
+    height: 180px;
+    background-image: url('../assets/img/locale.png');
+    border-radius: 10px;
+    
+}
+
+.footer-map a{
+    text-decoration: none;
+}
+
+.footer-map a:hover{
+    text-decoration: underline;
+}
+
+.box-map p{
+    background: #f3f3f3;
+    font-size: 15px;
+    text-decoration: none;
+    padding-top: 5px;
+    margin: 10px;
+    width: 160px;
+    height: 40px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.area-credits{
+    overflow-y: hidden;
+    background-color:#FFA41C ;
+    height: 25px;
+    margin-top: 43px;
+    text-align: center;
+}
+
+.area-credits a{
+    text-decoration: none;
+}
+
+@media (max-width:930px){
+
+    .container-footer{
+        overflow-y: hidden;
+      
+    }
+
+    .box-footer{
+        flex-direction: column;
+        overflow-y: hidden;
+        padding-top: 160px;
+        background-image: url('../assets/img/footer2.png');
+        background-position: center;
+    }
+
+    .footer-map{
+        margin: auto ;
+        padding-top: 40px;
+    }
+
+    
+}

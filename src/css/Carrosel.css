@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'little-font';
+    src: url('../assets/fonts/MessyChild-axdLa.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'relig-font';
+    src: url('../assets/fonts/Celtica-Book.ttf') format('truetype');
+}
+
+.carousel-area{
+    position: relative;
+}
+
+.fixed-link{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 62%;
+    top: 64.4%;
+    text-decoration: none;
+    font-size: 20px;    
+    font-weight: 500;
+}
+
+.fixed-link:hover{
+    color: white;
+    transition: 5ms;
+}
+
+.container-carousel{
+    display: flex;
+    overflow-y: hidden;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.container-img-md{
+    display: none;
+}
+
+@media(max-width:900px){
+    .fixed-link{
+        font-size: 16px;
+    }
+
+
+}
+
+
+@media(max-width:767px){
+    .box-carousel{
+        display: none;
+    }
+
+    .container-img-md{
+        display: flex;
+        position: relative;
+    }
+
+    .fixed-link{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 72%;
+        top: 54.8%;
+        text-decoration: none;
+        font-size: 13px;    
+        font-weight: 500;
+    }
+    
+
+
+}
+

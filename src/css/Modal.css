@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'lapis-font';
+    src: url('../assets/fonts/CrayonHandRegular2016Demo.ttf') format('truetype');
+}
+
+.container-modal{
+    width: 80%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.container-modal h1{
+    font-family: 'Prompt';
+    font-size: 35px;
+    padding-bottom: 100px;
+    color: #295CAB;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.box-modal{
+    justify-content: space-evenly;
+    display: flex;
+    gap: 10px;
+    margin: auto 0;
+    
+}
+
+.box-modal h3{
+    overflow-y: hidden;
+} 
+
+.area-modal{
+    width: 550px;
+    height: 500px;
+    border-radius: 20px;
+    overflow-y: hidden;
+    background-color: #295CAB;
+    
+}
+
+.area-modal h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f5cf66;
+    margin: auto 0;
+}
+
+.area-modal p{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-family: 'Prompt';
+    width: 80%;
+    color: white;
+    
+}
+
+@media(max-width:800px){
+    .container-modal h1{
+        font-size: 29px;
+    }
+    
+    .box-modal{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .area-modal{
+        width: 100%;
+        text-align: center;
+    }
+
+    .area-modal p{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media(max-width:680px){
+    .area-modal{
+        height: 450px;
+       
+    }
+
+    .container-modal {
+        margin-top: 70px;
+    }
+
+    .box-modal h3{
+        font-size: 24px;
+    }
+
+    .box-modal p{
+        font-size: 17px;
+    }
+}
+
