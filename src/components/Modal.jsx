@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../css/Modal.css';
 
+import kid1 from '../assets/img/kid2.png'
 import kid2 from '../assets/img/img3.png'
 
 const Modal = () => {
@@ -12,7 +13,7 @@ const Modal = () => {
         <div className="box-modal">
 
             <div className="area-modal">
-                <img className='img-fluid' src={kid2} alt="" />
+                <img className='img-fluid' src={kid1} alt="" />
                 <h3>Ensino Infantil</h3>
                 <p>Nossas salas de aula são mais do que espaços de ensino; são ambientes acolhedores e estimulantes que nutrem a imaginação e incentivam a expressão criativa. </p>
             </div>
